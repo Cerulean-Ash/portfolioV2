@@ -124,6 +124,31 @@ section {
   }
 }
 
+
+.theme-btn {
+  position: fixed;
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 3px 15px rgba(0,0,0,.2);
+  transition: all .1s ease-in-out;
+  i {
+      font-size: 1.4rem;
+      color: var(--color-grey-2);
+      pointer-events: none;
+    }
+  &:active {
+    transform: translateY(-3px);
+  }
+}
+
 //---------------------------------------------------------------------------------
 // header content   -- Home Page!!!!
 .header-content{
