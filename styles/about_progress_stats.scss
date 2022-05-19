@@ -2,24 +2,27 @@
   .progress-bars {
     .progress-bar {
       .progress-con {
+        .prog-text {
+          // display: none;
+        }
         .progress {
-          .html {
+          .html-css-js {
             width: 90%;
           }
-          .css {
+          .rest {
             width: 80%;
           }
-          .javascript {
+          .sql {
             width: 70%;
           }
-          .node {
+          .git {
+            width: 70%;
+          }
+          .python {
             width: 60%;
           }
-          .react {
-            width: 30%;
-          }
           .ruby {
-            width: 80%;
+            width: 85%;
           }
         }
       }
